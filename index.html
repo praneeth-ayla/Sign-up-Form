@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign-up Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <div id="image"></div>
+            <div id="form">
+                <p id="text1">
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams. <br />Sign up <i>now</i> to get started.
+                </p>
+                <p id="text2">You know you want to.</p>
+                <form action="#" method="get">
+                    <legend>Let's do this!</legend>
+                    <div class="name">
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input
+                                type="text"
+                                name="firstName"
+                                id="firstName"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input
+                                type="text"
+                                name="lastName"
+                                id="lastName"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <div>
+                            <label for="email">E-MAIL</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input
+                                type="tel"
+                                name="phone"
+                                id="phone"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="passwords">
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input
+                                type="password"
+                                name="password"
+                                id="password"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="cnfPassword">CONFIRM PASSWORD</label>
+                            <input
+                                type="password"
+                                name="cnfPassword"
+                                id="cnfPassword"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                </form>
+                <div id="login">
+                    Already have an account? <a href="#">Log in</a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
